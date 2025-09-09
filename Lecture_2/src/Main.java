@@ -10,7 +10,7 @@ public class Main {
 
 
         if (tal1 < 18) {
-            System.out.println("You are a child");
+            System.out.println("You are a minor");
         }
         else if(tal1 >= 18)
         {
