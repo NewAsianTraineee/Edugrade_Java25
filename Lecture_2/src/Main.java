@@ -5,6 +5,10 @@ import java.util.Scanner;
 public class Main {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
+        int talet = 2;
+
+        System.out.println(((Object) talet).getClass().getName());
+
         System.out.print("How old are you?:");
         int tal1 = sc.nextInt();
 
@@ -15,12 +19,8 @@ public class Main {
         else if(tal1 >= 18)
         {
             System.out.println("You are an adult");
+            System.out.println(((Object) tal1) instanceof Integer);
         }
     }
     }
-int age = 25;
-double name = 19.99;
-char gender = 'M';
-String name = "Anna";
-boolean isStudent = true;
 
